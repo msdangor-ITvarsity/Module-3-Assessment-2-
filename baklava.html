@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Wingman's Diner | DESSERTS | Baklava </title>
+        <title>Wingman's Diners|Desserts|Baklava</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="fontAwesome/css/all.css">
     </head>
-    <body class="body-recipes">
-        <div class="header">
-            <a href="desserts.html">
-                <i class="fas fa-arrow-left"></i>
-            </a>
-
-            <img src="images/Cool Text - WINGMANS   DINER 453163895734638.png">
-        </div>
-
-        <div id="recipe">
-
-            <div class="recipe-details">
-                <img src="images/105a4e88dca44f4a81dbaf6ccb7b83bc.jpg">
-
-                <h1>Baklava</h1>
-
-                <div class="recipe-details-ingredients">
-                   <h3>Price : R40</h3>
-                   <h3>Serving size : Small</h3>
-                   <br/>
-                   <p>Baklava exposed to brilliant crunchy texture and delicious taste.</p>
-                   <br/>
-                   <h2>Some extras to add to your dessert:</h2>
-                   <br/>
-                   <input type="checkbox" id="Ice Cream" name="Sides 1" value="Ice Cream">
-                   <label for="Ice Cream">Ice Cream</label>
-                   <br/>
-                   <input type="checkbox" id="Cream" name="Sides 2" value="Cream">
-                   <label for="Cream">Cream</label>
-                   <br/>
-                   <input type="checkbox" id="Golden Syrup" name="Sides 2" value="Golden Syrup">
-                   <label for="Golden Syrup">Golden Syrup</label>
-                
-                   <br/><br/><br/>
-                   <label for="request">Request</label>
-                   <input type="text" id="request" name="request" placeholder="Your Request..." style="height: 100px;">
-                   <form method="post" action="order-recieved-form.html"><button type="submit">PLACE ORDER</button></form>
-                </div>
-                </div>
+    <body>
+        <div class="nav">
+            <div class="logo"><img src="images/Pngtree—fast food cooking_4103415.png" width="100px"></div>
+            <div class="text"><img src="images/Cool Text - WINGMANS   DINER 453163895734638.png" width="200px"></div>
+            <div class="navlinks">
+                <ul>
+                    <li><a class="navborder" href="index.html">Home</a></li>
+                    <li><a class="navborder" href="about.html">About</a></li>
+                    <li><a class="navborder" href="contact.html">Contact</a></li>
+                </ul>
             </div>
         </div>
+    </body>
+    <body class="body-recipes">
+        <div class="header">
+        <a href="desserts.html">
+        </a>
+
+            <div id="recipe">
+
+                <div class="recipe-details">
+                    <img src="images/105a4e88dca44f4a81dbaf6ccb7b83bc.jpg">
+
+                    <h1>Baklava</h1>
+
+                    <div class="recipe-details-ingredients">
+                        <h3>Price: R30</h3>
+                        <h3>Serving Size:</h3>
+                        <input type="radio" id="Small" name="Size 1" value="Small">
+                        <label for="Small">Small</label>
+                        <input type="radio" id="Meduim" name="Size 2" value="Meduim">
+                        <label for="Meduim">Meduim</label>
+                        <input type="radio" id="Large" name="Size 3" value="Large">
+                        <label for="Large">Large</label>
+                        <br/><br/>
+                        <p>Traditional Turkish Cuisine</p>
+                        <br/>
+                        <h2>Extra:</h2>
+                        <input type="radio" id="Whipped Cream" name="Extras" value="Whipped Cream">
+                        <label for="Whipped Cream">Whipped Cream</label>
+                        <input type="radio" id="Golden Syrup" name="Extras" value="Golden Syrup">
+                        <label for="Golden Syrup">Golden Syrup</label> 
+                    
+                        <br/><br/>
+                        <button class="order"><a href="order-recieved.html">Order Now</a></button>
+                    </div>
+                    </div>
+                </div>
+            </div>
     </body>
 </html>

@@ -1,59 +1,66 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Wingman's Diner | MEALS | Margherita Pizza </title>
+        <title>Wingman's Diners|Meals|Margheritta Pizza</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="fontAwesome/css/all.css">
     </head>
+    <body>
+        <div class="nav">
+            <div class="logo"><img src="images/Pngtree—fast food cooking_4103415.png" width="100px"></div>
+            <div class="text"><img src="images/Cool Text - WINGMANS   DINER 453163895734638.png" width="200px"></div>
+            <div class="navlinks">
+                <ul>
+                    <li><a class="navborder" href="index.html">Home</a></li>
+                    <li><a class="navborder" href="about.html">About</a></li>
+                    <li><a class="navborder" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </body>
     <body class="body-recipes">
         <div class="header">
-            <a href="meals.html">
-                <i class="fas fa-arrow-left"></i>
-            </a>
+        <a href="meals.html">
+        </a>
 
-            <img src="images/Cool Text - WINGMANS   DINER 453163895734638.png">
-        </div>
+            <div id="recipe">
 
-        <div id="recipe">
+                <div class="recipe-details">
+                    <img src="images/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.webp">
 
-            <div class="recipe-details">
-                <img src="images/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.webp">
+                    <h1>Margheritta Pizza</h1>
 
-                <h1>Margherita Pizza</h1>
-
-                <div class="recipe-details-ingredients">
-                   <h3>Price : R40</h3>
-                   <h3>Serving size : Small, Meduim, Large</h3>
-                   <br/>
-                   <p>Pizza always makes a bad day feel better, and there's nothing nicer than a perfect slice of margherita pizza.</p>
-                   <br/>
-
-                   <h2>Here are some drinks to add to your meal:</h2>
-                   <br/>
-                   <input type="radio" id="Coca-Cola" name="Extras" value="Coca-Cola">
-                   <label for="Coca-Cola">Coca-Cola</label>
-                   <br/>
-                   <input type="radio" id="Raspberry" name="Extras" value="Raspberry">
-                   <label for="Raspberry">Raspberry</label>
-                   <br/>
-                   <input type="radio" id="Sparberry" name="Extras" value="Sparberry">
-                   <label for="Sparberry">Sparberry</label>
-                   <br/><br/>
-                   <h2>Some extra toppings to add to your meal:</h2>
-                   <br/>
-                   <input type="checkbox" id="Chicken" name="Sides 1" value="Chicken">
-                   <label for="Chicken">Chicken</label>
-                   <br/>
-                   <input type="checkbox" id="Steak" name="Sides 2" value="Steak">
-                   <label for="Steak">Steak</label>
-                   <br/>
-                   <input type="checkbox" id="Pepperoni" name="Sides 2" value="Pepperoni">
-                   <label for="Pepperoni">Pepperoni</label>
-                   <br/><br/><br/>
-                   <label for="request">Request</label>
-                   <input type="text" id="request" name="request" placeholder="Your Request..." style="height: 100px;">
-                   <form method="post" action="order-recieved-form.html"><button type="submit">PLACE ORDER</button></form>
-                </div>
+                    <div class="recipe-details-ingredients">
+                        <h3>Price: R30</h3>
+                        <h3>Serving Size:</h3>
+                        <input type="radio" id="Small" name="Size 1" value="Small">
+                        <label for="Small">Small</label>
+                        <input type="radio" id="Meduim" name="Size 2" value="Meduim">
+                        <label for="Meduim">Meduim</label>
+                        <input type="radio" id="Large" name="Size 3" value="Large">
+                        <label for="Large">Large</label>
+                        <br/><br/>
+                        <p>The best pizza in town</p>
+                        <br/>
+                        <h2>Some drinks to add:</h2>
+                        <input type="radio" id="Sparberry" name="Extras" value="Sparberry">
+                        <label for="Sparberry">Sparberry</label>
+                        <input type="radio" id="Raspberry" name="Extras" value="Raspberry">
+                        <label for="Raspberry">Raspberry</label>
+                        <input type="radio" id="Apple Juice" name="Extras" value="Apple Juice">
+                        <label for="Apple Juice">Apple Juice</label> 
+                         <br/><br/>
+                        <h2>Extras to add to your meal:</h2>
+                        <input type="checkbox" id="Sides" name="Side 1" value="Pepperoni">
+                        <label for="Side 1">Pepperoni</label>
+                        <input type="checkbox" id="Sides" name="Side 2" value="Chicken">
+                        <label for="Side 1">Chicken</label>
+                        <input type="checkbox" id="Sides" name="Side 3" value="Steak">
+                        <label for="Side 1">Steak</label>
+                        <br/><br/>
+                        <button class="order"><a href="order-recieved.html">Order Now</a></button>
+                    
+                    </div>
                 </div>
             </div>
         </div>

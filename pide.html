@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Wingman's Diners|Starters|Calamari</title>
+        <title>Wingman's Diners|Starters|Pide</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="fontAwesome/css/all.css">
     </head>
@@ -26,15 +26,21 @@
             <div id="recipe">
 
                 <div class="recipe-details">
-                    <img src="images/Falklands_20Calamari_20Tubes.png">
+                    <img src="images/turkish-cheese-pide-egg-peynirli-yumurtali-pide-6.jpg.webp">
 
-                    <h1>Calamari</h1>
+                    <h1>Pide</h1>
 
                     <div class="recipe-details-ingredients">
-                        <h3>Price: R60</h3>
-                        <h3>Serving Size: 6 pieces calamri tubes</h3>
-                        <br/>
-                        <p>Grilled to pefection</p>
+                        <h3>Price: R40</h3>
+                        <h3>Serving Size:</h3>
+                        <input type="radio" id="Small" name="Size" value="Small">
+                        <label for="Small">Small</label>
+                        <input type="radio" id="Meduim" name="Size" value="Meduim">
+                        <label for="Meduim">Meduim</label>
+                        <input type="radio" id="Large" name="Size" value="Large">
+                        <label for="Large">Large</label>
+                        <br/><br/>
+                        <p>Turkish flat bread with toppings of your choice</p>
                         <br/>
                         <h2>Some drinks to add:</h2>
                         <input type="radio" id="Cocacola" name="Extras" value="Cocacola">
@@ -45,10 +51,13 @@
                         <label for="Orange Juice">Orange Juice</label> 
                          <br/><br/>
                         <h2>Extras to add to your meal:</h2>
-                        <input type="checkbox" id="Sides" name="Side 1" value="Cheese Sauce">
-                        <label for="Side 1">Cheese Sauce</label>
+                        <input type="checkbox" id="Sides" name="Side 1" value="Cheese">
+                        <label for="Side 1">Cheese</label>
+                        <input type="checkbox" id="Sides" name="Side 2" value="Chicken">
+                        <label for="Side 1">Chicken</label>
+                        <input type="checkbox" id="Sides" name="Side 3" value="Steak">
+                        <label for="Side 1">Steak</label>
                         <br/><br/>
-
                         <button class="order"><a href="order-recieved.html">Order Now</a></button>
                     
                     </div>
